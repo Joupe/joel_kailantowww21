@@ -8,14 +8,17 @@
 <meta name="author" content="Joupe">
 <meta name="description" content="Exercise number 1 for the web development course.">
 <title>Exercise1</title>
-
+<link  rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 </head>
 
 <body>
 
-<h1>Urheilu</h1>
+<h1 style="border-bottom:5px solid rgb(255, 0, 0); color:red; font-size:16px;">Urheilu</h1>
 
+<figure>
 <img src="images/golf.jpg" alt="golf photo" width="500pxl" height="350pxl">
+<figcaption>Pic.1 Kuvan golfari ei liity tapaukseen.</figcaption>
+</figure>
 
 <p><b>Golfin suurkisa siirrettiin pois Donald Trumpin omistamalta kentältä</b></p>
 <p>PGA Championship oli tarkoitus järjestää Trump National Golf Club Bedminster-kentällä New Jerseyssä ensi vuonna.</p>
@@ -23,7 +26,7 @@
 
 <a href="https://www.aamulehti.fi/ulkomaat/art-2000007730957.html">Syy-yhteys</a><br>
 <a href="https://www.aamulehti.fi/ulkomaat/art-2000007731868.html">Aiheeseen liittyvää</a>
-
+<hr>
 
 <h2> Exercise2 </h2>
 
@@ -33,21 +36,33 @@
     <li><a href="file:///C:/Users/Joupe/Documents/GitHub/joel_kailantowww21/project.html">Projects</a></li>
 </ul>
 
+<img src="images/school.jpg" alt="School" style="float:right">
+
 <article>
     HAMK address and other.
 </article> <br>
 
 <p>Häme University of Applied Sciences is located in Hämeenlinna.</p> 
-<p>It has almost 8000 students.<img src="images/school.jpg" alt="School" style="float:right"></p><br>
+<p>It has almost 8000 students. </p><br>
 
-<address> 
+<address style="margin-bottom: 300px;"> 
     Hämeen ammattikorkeakoulu HAMK <br>
     PL 230<br> 
     13101<br> 
     Hämeenlinna
 </address>
 
-
+<hr>
+<h3>How can you type the latin characters such as ä, ö etc in your html Document?</h3>
+<p> ä, Ä =<xmp>&auml;,&Auml;</xmp></p> <br>
+<p> ö, Ö =<xmp>&ouml;,&Ouml;</xmp></p> <br>
+<p> å, Å = <xmp>&aring;,&Aring;</xmp></p> <br>
+<hr>
+<h2>Video from FEL ft. OMEN Peliperjantai</h2>
+<video width="1000" controls>
+    <source src="images/video.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 </body>
 
 </html>
